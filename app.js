@@ -19,6 +19,7 @@
 ];*/
 
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('loaded')
     const navbar = document.getElementById('navbar');
     // Store pages in an array
     const pages = [
