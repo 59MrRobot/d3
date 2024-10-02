@@ -23,11 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.getElementById('navbar');
     // Store pages in an array
     const pages = [
-        { name: 'Home', link: '/index.html' },
-        { name: 'About', link: '/pages/about.html' },
-        { name: 'Services', link: '/pages/services.html' },
-        { name: 'Contact', link: '/pages/contact.html' },
-        { name: 'Design', link: '/pages/design.html'}
+        { name: 'Home', link: '/d3/index.html' },
+        { name: 'About', link: '/d3/pages/about.html' },
+        { name: 'Services', link: '/d3/pages/services.html' },
+        { name: 'Contact', link: '/d3/pages/contact.html' },
+        { name: 'Design', link: '/d3/pages/design.html'}
     ];
 
     // Create a <ul> element for the navbar
