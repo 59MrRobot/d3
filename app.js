@@ -1,33 +1,13 @@
-//const root = "/TESTERD3";
-
-/*const navItens = [
-    {
-        name: "Home", href: `${root}/index,html`
-    },
-    {
-        name: "About", href: `${root}/pages/about.html`
-    },
-    {
-        name: "Services", href: `${root}/pages/services.html`
-    },
-    {
-        name: "Design", href: `${root}/pages/design.html`
-    },
-    {
-        name: "Contact", href: `${root}/pages/contact.html`
-    }
-];*/
-
 document.addEventListener('DOMContentLoaded', () => {
     console.log('loaded')
     const navbar = document.getElementById('navbar');
     // Store pages in an array
     const pages = [
-        { name: 'Home', link: '/d3/index.html' },
-        { name: 'About', link: '/d3/pages/about.html' },
-        { name: 'Services', link: '/d3/pages/services.html' },
-        { name: 'Contact', link: '/d3/pages/contact.html' },
-        { name: 'Design', link: '/d3/pages/design.html'}
+        { name: 'Home', link: 'index.html' },
+        { name: 'About', link: 'pages/about.html' },
+        { name: 'Services', link: 'pages/services.html' },
+        { name: 'Contact', link: 'pages/contact.html' },
+        { name: 'Design', link: 'pages/design.html'}
     ];
 
     // Create a <ul> element for the navbar
