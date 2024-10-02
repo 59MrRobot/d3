@@ -1,13 +1,15 @@
+const base = window.location.pathname.includes('d3') ? '/d3/' : '/';
+
 document.addEventListener('DOMContentLoaded', () => {
     console.log('loaded')
     const navbar = document.getElementById('navbar');
     // Store pages in an array
     const pages = [
-        { name: 'Home', link: 'index.html' },
-        { name: 'About', link: 'pages/about.html' },
-        { name: 'Services', link: 'pages/services.html' },
-        { name: 'Contact', link: 'pages/contact.html' },
-        { name: 'Design', link: 'pages/design.html'}
+        { name: 'Home', link: `${base}index.html` },
+        { name: 'About', link: `${base}pages/about.html` },
+        { name: 'Services', link: `${base}pages/services.html` },
+        { name: 'Contact', link: `${base}pages/contact.html` },
+        { name: 'Design', link: `${base}pages/design.html`}
     ];
 
     // Create a <ul> element for the navbar
